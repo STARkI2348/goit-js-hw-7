@@ -25,16 +25,11 @@ const images = [
   }
 ];
 
-// Находим элемент галереи в HTML
 const gallery = document.querySelector(".gallery");
 
-// Создаем разметку для изображений
-const markup = images
-  .map(
-    ({ url, alt }) =>
-      `<li class="gallery-item"><img src="${url}" alt="${alt}" class="gallery-image"></li>`
-  )
+const galleryMarkup = images
+  .map(({url, alt}) => `<li class="gallery-item"><img  src=${url} alt=${alt} class="gallery-image"></li>`)
   .join("");
 
-// Добавляем разметку в DOM
-gallery.insertAdjacentHTML("beforeend", markup);
+gallery.insertAdjacentHTML("beforeend", galleryMarkup);
+
