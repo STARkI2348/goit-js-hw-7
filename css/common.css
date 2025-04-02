@@ -12,12 +12,57 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+/*-------------------Task 1-------------------*/
 
+#categories{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  padding: 24px;
+  width: 440px;
+  height: 888px;
+  margin: 0px;
+  color:#2E2F42;
+}
+
+.item{
+  background-color: #F6F6FE;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 392px;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.item h2{
+  margin: 0px;
+  height: 32px;
+}
+
+.item ul{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0px;
+}
+
+.item ul li{
+  border: 1px solid #808080; 
+  border-radius: 4px; 
+  padding: 8px 0px 8px 16px;
+  height: 40px;
+}
+
+/*-------------------Task 2-------------------*/
 .gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px;
+  gap: 24px;
+  padding: 0px;
+  margin: 0px;
 }
 
 .gallery-image {
@@ -31,7 +76,35 @@ body {
   list-style: none; 
   padding: 0;       
   margin: 0; 
-  width: 400px; 
-  height: 400px;
+  width: 360px; 
+  height: 300px;
   
 }
+
+/*-------------------Task 3-------------------*/
+#name-input{
+  width: 360px;
+  height: 40px;
+  color: #2E2F42;
+  padding: 8px 0px 8px 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
+
+#name-input:hover{
+  border: 1px solid #000000;
+  border-radius: 4px;
+}
+
+#name-input:focus{
+  border: 1px solid #808080;
+  border-radius: 4px;
+  outline: none;
+}
+
+#name-input::placeholder {
+  color: #2E2F42; 
+  font-size: 16px;
+  opacity: 1; 
+}
+
