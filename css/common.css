@@ -108,3 +108,87 @@ body {
   opacity: 1; 
 }
 
+/*-------------------Task 4-------------------*/
+
+.login-form{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.login-form label{
+  display: flex;
+  flex-direction: column;
+  gap:8px;
+}
+
+.login-form button{
+  width: 86px;
+  height: 40px;
+  margin-top: 8px;
+  background-color: #4E75FF;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  color:#FFFFFF;
+  letter-spacing: 1px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.login-form button:hover{
+  background-color: #6C8CFF;
+}
+
+.login-form input{
+  width: 360px;
+  height: 40px;
+  color: #2E2F42;
+  padding: 8px 0px 8px 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+
+}
+
+.login-form input:hover{
+  border: 1px solid #000000;
+  border-radius: 4px;
+}
+
+.login-form input:focus{
+  border: 1px solid #808080;
+  border-radius: 4px;
+  outline: none;
+}
+
+.login-form input::placeholder {
+  color: #2E2F42; 
+  font-size: 16px;
+  opacity: 1; 
+}
+
+/*-------------------Task 5-------------------*/
+
+.widget{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.change-color{
+  width: 148px;
+  height: 40px;
+  background-color: #4E75FF;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  color:#FFFFFF;
+  letter-spacing: 1px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.change-color:hover{
+  background-color: #6C8CFF;
+}
